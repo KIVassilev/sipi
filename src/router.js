@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // Page content
-import Page1 from '@/components/Page1'
+import Where from '@/components/Where'
 import Home from '@/components/Home'
 
 // Fallback page
@@ -18,9 +18,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/page-1',
-      name: 'Page 1',
-      component: Page1
+      path: '/where',
+      name: 'Where',
+      component: Where
     },
     {
       path: '**',

@@ -4,7 +4,8 @@
   "description": "sipi.eu PWA",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress"
+    "dev": "webpack-dev-server --progress",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

@@ -41,8 +41,8 @@ export default {
         to: '/'
       },
       {
-        name: 'Page 1',
-        to: '/page-1'
+        name: 'Where',
+        to: '/where'
       },
       {
         name: 'Bad Link',
